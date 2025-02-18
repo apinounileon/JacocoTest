@@ -12,3 +12,9 @@ In the [pom.xml](pom.xml) file, you can specify the output path for jacoco repor
     <outputDirectory>${project.basedir}/target/jacoco</outputDirectory>
 </configuration>
 ```
+### References
+**Error message**
+```shell
+Skipping JaCoCo execution due to missing execution data file.
+```
+[Jacoco Docs](https://www.jacoco.org/jacoco/trunk/doc/report-mojo.html)
